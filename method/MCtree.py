@@ -225,7 +225,7 @@ class MCTree(DiGraph):
 #        self.depth_pos = -1
         self.ave_depth = 0
         self.min_depth = 0
-        self.num_CX = len(DG.node)
+        self.num_CX = len(DG.nodes())
         self.shortest_length_AG = shortest_length_AG
         self.shortest_path_AG = shortest_path_AG
         #self.max_shortest_length_AG = max(shortest_length_AG)
