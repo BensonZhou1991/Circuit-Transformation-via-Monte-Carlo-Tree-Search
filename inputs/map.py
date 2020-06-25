@@ -27,7 +27,7 @@ class Map(object):
         _DomToCod: dic from domain of definition to codomain
         _CodToDom: dic from codomain to domain of definition
         '''
-        vertex = list(G.node())
+        vertex = list(G.nodes())
         num_q = len(q_reg)
         self.num_v = len(list(G))
         self.logical_quantum_register = q_reg
