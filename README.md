@@ -3,3 +3,5 @@
 This repository is a Python implementation for paper 'A Monte Carlo Tree Search Framework for Quantum Circuit Transformation'.
 
 Readers can run 'Main_MCtree_search.py' to test the relevant algorithms in IBM Q20 architecture.
+
+The necessary packages, 'networkx', 'qiskit', 'matplotlib' and 'numpy', should be installed before running.
