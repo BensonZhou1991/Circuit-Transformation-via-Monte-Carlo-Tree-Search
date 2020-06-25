@@ -41,7 +41,6 @@ import matplotlib.pyplot as plt
 from mp.process_control_ave_sing_processor import StartNewSim, GetSimRes
 from inputs.get_benchmarks import GetBenchmarks, GetMappings
 
-##############################################################################
 '''parameter control'''
 play_times = [20]
 '''mode for search'''
