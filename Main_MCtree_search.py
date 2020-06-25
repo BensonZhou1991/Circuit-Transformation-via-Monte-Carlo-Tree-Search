@@ -22,7 +22,7 @@ initial_mapping_control = 1
 
 '''
 should we output .qasm files for the transformed circuit?
-if True, the output files will be store at ./output_qasm/
+if True, the output files will be stored at ./output_qasm/
 '''
 output_qasm_file = False
 

@@ -8,7 +8,7 @@ import sys
 sys.path.append('..')
 import multiprocessing as mp
 import numpy as np
-from to_python import to_python
+from C import to_python
 import time
 sim_cpp = to_python.SimTest
 decay_BP = 0.7 # recommend: 0.7
