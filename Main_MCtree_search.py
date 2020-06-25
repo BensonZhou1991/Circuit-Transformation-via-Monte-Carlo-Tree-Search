@@ -10,8 +10,8 @@ Circuit Transformation via Monte Carlo Tree Search
 '''The following parameters can be adjusted to meet different requirement'''
 
 '''choose a circuits set for benchmark'''
-''''small', large'''
-benchmark = 'MCTS_small' 
+'''small or large'''
+benchmark = 'small' 
 
 '''repeated times for each circuit'''
 repeat_time = 5
