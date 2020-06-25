@@ -422,7 +422,7 @@ def RemoteCNOTinArchitectureGraph(path, cir_phy, q_phy, DiG=None):
 
 def IsVertexInDGOperatiable(vertex, DG, G, mapping):
     '''check whether the vertex of DG can be executed, ignoring the dependency'''
-    op = DG.node[vertex]['operation']
+    op = DG.nodes[vertex]['operation']
     if len(op.involve_qubits) == 1: return True #single-qubit gate
     q0 = op.involve_qubits[0]
     q1 = op.involve_qubits[1]
