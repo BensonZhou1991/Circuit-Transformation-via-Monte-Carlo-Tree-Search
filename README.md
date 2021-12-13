@@ -1,4 +1,6 @@
 # Circuit Transformation via Monte Carlo Tree Search
+
+Thie repository is currently outdated. Please refer to https://github.com/BensonZhou1991/MCTS-New for the latest implementation and experimental results of our MCTS-based algorithms for Quantum Circuit Transformation.
  
 This repository is a Python implementation for the paper 'A Monte Carlo Tree Search Framework for Quantum Circuit Transformation'.
 
